@@ -17,11 +17,11 @@
   --sm-font-size: 16px;
   --xs-font-size: 14px;
   /* 줄간격 */
-  --xl--line-height: 92px;
-  --lg--line-height: 60px;
-  --md--line-height: 44px;
-  --sm--line-height: 30px;
-  --xs--line-height: 26px;
+  --xl-line-height: 92px;
+  --lg-line-height: 60px;
+  --md-line-height: 44px;
+  --sm-line-height: 30px;
+  --xs-line-height: 26px;
 }
 
 html,

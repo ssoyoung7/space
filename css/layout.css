@@ -27,6 +27,7 @@ header {
   height: 80px;
   backdrop-filter: blur(10px);
   position: fixed;
+  z-index: 999;
   top: 0;
   left: 0;
   right: 0;
@@ -127,4 +128,31 @@ header:hover {
   height: 200px;
   background-color: rgba(0, 0, 0, 0.3);
   border-bottom: 1px solid #ddd;
+}
+
+.icons {
+  width: fit-content;
+  height: 80px;
+  display: flex;
+  align-items: center;
+}
+
+.icons > a {
+  width: 48px;
+  height: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  line-height: 1;
+  transition: 0.5s;
+}
+
+.icons > a:hover {
+  color: var(--default-bk);
+  background-color: var(--sub-color);
+  border-radius: 100%;
+}
+
+.icons a:last-child {
+  display: none;
 }
